@@ -18,6 +18,7 @@ static const variant_info_t thyme_info = {
     .marketname = "Mi 10S",
     .model = "M2102J2SC",
     .build_fingerprint = "Xiaomi/thyme/thyme:13/TKQ1.221114.001/V816.0.4.0.TGACNXM:user/release-keys",
+    .hwsku = "thyme",
     .nfc = true,
 };
 
