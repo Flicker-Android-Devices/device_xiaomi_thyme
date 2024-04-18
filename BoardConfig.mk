@@ -20,7 +20,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_thyme
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_thyme
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/thyme.config
+TARGET_KERNEL_CONFIG := thyme_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := thyme
