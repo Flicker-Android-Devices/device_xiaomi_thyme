@@ -30,11 +30,14 @@ PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
 # Nfc
-PRODUCT_PACKAGES += ThymeNfc
+PRODUCT_PACKAGES += NfcTargetOverlay
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    ApertureTargetOverlay \
+    FrameworksTargetOverlay \
+    SettingsTargetOverlay \
+    SystemUITargetOverlay
 
 PRODUCT_PACKAGES += \
     xiaomi_thyme_hwlevel_default_overlay \
