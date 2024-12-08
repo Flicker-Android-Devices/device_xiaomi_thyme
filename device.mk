@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     ApertureTargetOverlay \
     FrameworksTargetOverlay \
     SettingsTargetOverlay \
+    SettingsTargetRegInfoOverlay \
     SystemUITargetOverlay
 
 PRODUCT_PACKAGES += \
